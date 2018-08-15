@@ -6,7 +6,7 @@
 2.  单击**类型**下拉菜单，选择数据库类型为**AnalyticDB**。
 3.  填写数据库信息，如下图所示。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16533/15343027537822_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16533/15343249737822_zh-CN.png)
 
     -   名称：数据源的显示名称，您可以自由命名。
     -   域名：连接您数据库的 URL 地址（不是您官网页面的 URL，也不是您本机的 IP，是需要 DataV 服务器能够通过公网或阿里云部分 Region 内网访问您数据库的 URL 地址）。
