@@ -17,9 +17,9 @@
 
     进入ECS购买页，根据以下提示完成购买。
 
-    -   选择计费方式为按量计费。
-    -   选择镜像为公共镜像，并选择 CentOS 7.4 64-bit。
-    -   建议选择公网带宽为按使用流量。
+    -   选择**计费方式**为**按量计费**。
+    -   选择**镜像**为**公共镜像**，并选择 **CentOS 7.4 64-bit**。
+    -   建议选择**公网带宽**为**按使用流量**。
     -   如果没有特殊要求，则不需要数据盘。
     -   请根据系统提示，选择其它配置并完成购买。
 2.  **部署代码并启动服务**
@@ -40,12 +40,12 @@
 
     结果如下图所示。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15343119688646_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15347451358646_zh-CN.png)
 
     请保存上图红色框中的信息，您会在下一步用到该信息。
 
-    -   如果忘记，可运行 `node ./bin/info.js` 命令再次查看该信息。
-    -   如果需要更改密钥，可运行 `node ./bin/genkv.js` 命令生成一个新的密钥。
+    -   如果忘记，可运行 node ./bin/info.js 命令再次查看该信息。
+    -   如果需要更改密钥，可运行 node ./bin/genkv.js 命令生成一个新的密钥。
     -   如果您在红框下看到应用程序状态信息，说明该应用程序已成功激活。
     -   可以访问`http://域名:端口/status`验证服务器状态。
 
@@ -53,7 +53,7 @@
 
 3.  **配置数据库**
 
-    打开 config.js ，在`databases`数组中仿照示例增加数据库，如下所示。
+    打开 config.js ，在 databases 数组中仿照示例增加数据库，如下所示。
 
     ```
     databases: [
@@ -76,14 +76,14 @@
 4.  **配置到 DataV**
 
     1.  在DataV控制台上，选择**我的数据** \> **添加数据**。
-    2.  在新建数据页面，选择类型为DataV数据代理服务。
+    2.  在**新建数据**页面，选择**类型**为**DataV数据代理服务**。
     3.  将上文中红框中的信息填入下图的输入框中，参数详情请参考[DataV 数据代理服务](https://www.alibabacloud.com/help/zh/doc-detail/59774.html)。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15343119689303_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15347451359303_zh-CN.png)
 
-    4.  在项目的数据配置中，选择数据源类型为数据库，数据库选择上图自定义的数据源。
+    4.  在项目的数据配置中，选择**数据源类型**为**数据库**，数据库选择上图自定义的数据源。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15343119688648_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15347451358648_zh-CN.png)
 
     **说明：** 
 
