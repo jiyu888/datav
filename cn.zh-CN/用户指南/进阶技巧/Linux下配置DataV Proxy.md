@@ -40,7 +40,7 @@
 
     结果如下图所示。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15347451358646_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15355219388646_zh-CN.png)
 
     请保存上图红色框中的信息，您会在下一步用到该信息。
 
@@ -79,11 +79,11 @@
     2.  在**新建数据**页面，选择**类型**为**DataV数据代理服务**。
     3.  将上文中红框中的信息填入下图的输入框中，参数详情请参考[DataV 数据代理服务](https://www.alibabacloud.com/help/zh/doc-detail/59774.html)。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15347451359303_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15355219389303_zh-CN.png)
 
     4.  在项目的数据配置中，选择**数据源类型**为**数据库**，数据库选择上图自定义的数据源。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15347451358648_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16583/15355219388648_zh-CN.png)
 
     **说明：** 
 
